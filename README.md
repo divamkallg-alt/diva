@@ -48,18 +48,18 @@ nano operasi_file.sh
 #(Deskripsi gambar")
 # (https://github.com/divamkallg-alt/diva/edit/main/README.md)
 #!/bin/bash
-# Script untuk mengorganisasi file berdasarkan eksitensi
+#Script untuk mengorganisasi file berdasarkan eksitensi
 
-# Pastikan berada di direktori proyek
+#Pastikan berada di direktori proyek
 cd ~/project_1
 
-# Pindahkan file sesuai ekstensi
+#Pindahkan file sesuai ekstensi
 find . -maxdepth 1 -type f -name "*.txt" -exec mv {} documents/ \;
 find . -maxdepth 1 -type f -name "*.jpg" -exec mv {} images/ \;
 find . -maxdepth 1 -type f -name "*.pdf" -exec mv {} archives/ \;
 find . -maxdepth 1 -type f -name "*.log" -exec mv {} logs/ \;
 
-# Konfirmasi hasil
+#Konfirmasi hasil
 echo "file berhasil dipindahkan ke folder sesuai ekstensi!"
 ls documents images archives logs
 
