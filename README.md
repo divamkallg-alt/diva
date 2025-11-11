@@ -37,6 +37,29 @@ echo "Log sistem contoh" >> file20.log
 ```
 Penjelasan:
 - `mkdir` membuat folder baru.
-# .touch -> membuat file kosong 
-# .echo -> menulis tekx ke dalam file
+- `touch` membuat file kosong 
+- `echo` menulis tekx ke dalam file
+# LANGKAH 2 SCRIPT ORGANISASI FILE
+# Buat Script Organisasi File Di dalam direktori:
+```
+nano operasi_file.sh
+```
+#ISI SCRIPT
+#(Deskripsi gambar")
+# (https://github.com/divamkallg-alt/diva/edit/main/README.md)
+#!/bin/bash
+# Script untuk mengorganisasi file berdasarkan eksitensi
+
+# Pastikan berada di direktori proyek
+cd ~/project_1
+
+# Pindahkan file sesuai ekstensi
+find . -maxdepth 1 -type f -name "*.txt" -exec mv {} documents/ \;
+find . -maxdepth 1 -type f -name "*.jpg" -exec mv {} images/ \;
+find . -maxdepth 1 -type f -name "*.pdf" -exec mv {} archives/ \;
+find . -maxdepth 1 -type f -name "*.log" -exec mv {} logs/ \;
+
+# Konfirmasi hasil
+echo "file berhasil dipindahkan ke folder sesuai ekstensi!"
+ls documents images archives logs
 
