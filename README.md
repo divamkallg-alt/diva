@@ -36,7 +36,7 @@ echo "Data gambar" >> file11.jpg
 echo "Log sistem contoh" >> file20.log
 ```
 Penjelasan:
-# .mkdir -> membuat folder baru.
+- `mkdir` membuat folder baru.
 # .touch -> membuat file kosong 
 # .echo -> menulis tekx ke dalam file
 
