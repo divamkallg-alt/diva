@@ -47,6 +47,7 @@ nano operasi_file.sh
 #ISI SCRIPT
 #(Deskripsi gambar")
 # (https://github.com/divamkallg-alt/diva/edit/main/README.md)
+```
 #!/bin/bash
 #Script untuk mengorganisasi file berdasarkan eksitensi
 
@@ -62,4 +63,5 @@ find . -maxdepth 1 -type f -name "*.log" -exec mv {} logs/ \;
 #Konfirmasi hasil
 echo "file berhasil dipindahkan ke folder sesuai ekstensi!"
 ls documents images archives logs
+```
 
