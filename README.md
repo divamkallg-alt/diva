@@ -8,3 +8,12 @@ Project Based Learing 1
 #ubuntu@:mkdir project_1
 ```
 
+#Perintah Berpindah Direktori ke Project_File_Management dan Membuat folder documents, image, archives, logs
+"Deskripsi gambar"
+#
+```
+#cd project_1
+```
+```
+#mkdir documents images archivers logs
+```
