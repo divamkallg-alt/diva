@@ -3,14 +3,14 @@ Project Based Learing 1
 # LANGKAH 1 BUAT STRUKTUR DIREKTORI
 # Berikut contoh Membuat Project_1:
 #(Deskripsi gambar)
-# (https://github.com/divamkallg-alt/diva/edit/main/README.md)
+# https://drive.google.com/file/d/1tNzLN_wm9LMIbCm5VS-7oPuyOyPwVRpE/view?usp=drivesdk
 ```
 #ubuntu@divamakalalag :mkdir project_1
 ```
 
 # Perintah Berpindah Direktori ke Project_1 dan Membuat folder documents, image, archives, logs
 #(Deskripsi gambar")
-# (https://github.com/divamkallg-alt/diva/edit/main/README.md)
+# https://drive.google.com/file/d/1eGtgfuDnN_i7DwLubel8ADmpgxQyMfbL/view?usp=drivesdk
 ```
 #cd project_1
 ```
@@ -19,13 +19,13 @@ Project Based Learing 1
 ```
 # Perintah membuat 20 file:
 #(Deskripsi gambar")
-# (https://github.com/divamkallg-alt/diva/edit/main/README.md)
+#  https://drive.google.com/file/d/15AEMXSM65h-tEFXv7CZ_Z8Qy2Zvs7tN9/view?usp=drivesdk
 ```
 #touch file{1...10}.txt file{11...15}.jpg file{16...18};pdf file{19...20}.log
 ```
 # Perintah Memasukkan sebuah teks ke masing-masing file yang berbeda:
 #(Deskripsi gambar")
-# (https://github.com/divamkallg-alt/diva/edit/main/README.md)
+# https://drive.google.com/file/d/15AEMXSM65h-tEFXv7CZ_Z8Qy2Zvs7tN9/view?usp=drivesdk
 ```
 echo "Ini adalah dokumen contoh" > file1.txt
 ```
@@ -46,7 +46,7 @@ nano operasi_file.sh
 ```
 #ISI SCRIPT
 #(Deskripsi gambar")
-# (https://github.com/divamkallg-alt/diva/edit/main/README.md)
+# https://drive.google.com/file/d/1zmNBYBTBVEQ3eNzFAIoVp4l4qlgW95Ua/view?usp=drivesdk
 ```
 #!/bin/bash
 #Script untuk mengorganisasi file berdasarkan eksitensi
@@ -132,6 +132,7 @@ Penjelasan:
 nano report.sh
 ```
 (deskripsi gambar)
+https://drive.google.com/file/d/1JFIm8nxkpOu47gigNxumRpgVQreytTup/view?usp=drivesdk
 ```
 #!/bin/bash
 #Script: generate_report.sh
@@ -160,7 +161,7 @@ echo "LOG: $(find . -type f -name '*.log' | wc -l)" >> report.txt
 echo "" >> report.txt
 echo "=== Selesai! Laporan disimpan di report.txt ==="
 ```
-# bwri hak akses eksekusi 
+# beri hak akses eksekusi 
 ```
 chmod +x report.sh
 ```
